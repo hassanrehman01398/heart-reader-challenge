@@ -1,0 +1,47 @@
+# Dataset (large, not committed)
+ptb-xl-a-large-publicly-available-electrocardiography-dataset-1.0.3/
+/data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+runs/
+
+# TensorBoard
+events.out.tfevents.*
+
+# Large model files (>100 MB GitHub limit) — download via release assets
+checkpoints/best_model.pt
+
+# Intermediate files
+*.tmp
