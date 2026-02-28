@@ -23,6 +23,20 @@ Automated multi-label diagnostic classification of 12-lead ECGs into 5 cardiac s
 
 > HYP has the lowest F1 due to its small sample size and morphological overlap with other classes.
 
+## Download Models
+
+Pre-trained model weights and exported formats are available on Google Drive (checkpoint is 115 MB, exceeds GitHub's 100 MB limit):
+
+**[Download Models — Google Drive](https://drive.google.com/drive/folders/1SH0YIvshSveKe_k8v9h3QEVjgSO4y4Vn?usp=sharing)**
+
+| File | Description | Size |
+|---|---|---|
+| `best_model.pt` | Training checkpoint (weights + threshold) | 115 MB |
+| `model_scripted.pt` | TorchScript FP32 | 38 MB |
+| `model_int8_scripted.pt` | TorchScript INT8 (quantized) | 38 MB |
+| `model.onnx` | ONNX FP32 | 38 MB |
+| `model.tflite` | TFLite for mobile/embedded | 38 MB |
+
 ## Model Architecture
 
 **ResNet1D** — 1D Residual Convolutional Neural Network
